@@ -1,0 +1,37 @@
+0 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'start' ]
+1 info using npm@7.6.0
+2 info using node@v15.11.0
+3 timing config:load:defaults Completed in 1ms
+4 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 0ms
+5 timing config:load:builtin Completed in 0ms
+6 timing config:load:cli Completed in 2ms
+7 timing config:load:env Completed in 0ms
+8 timing config:load:project Completed in 0ms
+9 timing config:load:file:/home/node/.npmrc Completed in 0ms
+10 timing config:load:user Completed in 0ms
+11 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+12 timing config:load:global Completed in 0ms
+13 timing config:load:cafile Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:setUserAgent Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 5ms
+18 verbose npm-session 8d1a92c20faa1783
+19 timing npm:load Completed in 12ms
+20 timing command:run-script Completed in 244490ms
+21 verbose stack Error: command failed
+21 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/index.js:64:27)
+21 verbose stack     at ChildProcess.emit (node:events:378:20)
+21 verbose stack     at maybeClose (node:internal/child_process:1067:16)
+21 verbose stack     at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)
+22 verbose pkgid client@0.1.0
+23 verbose cwd /home/node
+24 verbose Linux 5.12.9-1-MANJARO
+25 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "start"
+26 verbose node v15.11.0
+27 verbose npm  v7.6.0
+28 error path /home/node
+29 error command failed
+30 error signal SIGTERM
+31 error command sh -c react-scripts start
+32 verbose exit 1
